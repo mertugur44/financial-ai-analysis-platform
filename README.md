@@ -50,6 +50,21 @@ kullanılmıştır.
 
 Modelin yalnızca yaklaşık **%1,75'lik parametre alt kümesi** eğitilmiş ve eğitim çıktısı LoRA adaptörü olarak kaydedilmiştir.
 
+## FinansAI Fine-Tuning Eğitim Verisi
+
+FinansAI modelinin Türkçe finans ve kripto alanına uyarlanması amacıyla hazırlanan **1.106 örnekten oluşan fine-tuning eğitim verisi** repository içerisinde paylaşılmıştır.
+
+Veri seti; finans ve kripto kavramlarına yönelik soru-cevap örneklerinin yanı sıra modelin:
+
+- Finans ve kripto alanında kalması
+- Riskleri vurgulaması
+- Kesin yatırım tavsiyesi vermemesi
+- Kullanıcı sorularına Türkçe ve açıklayıcı yanıtlar üretmesi
+
+gibi davranışlarını şekillendirmek amacıyla hazırlanmış instruction örneklerini içermektedir.
+
+📄 [FinansAI Fine-Tuning Eğitim Verisini Görüntüle](./train.jsonl)
+
 ## Sistem Mimarisi
 
 Platform modüler ve katmanlı bir mimari anlayışıyla geliştirilmiştir.
